@@ -1,4 +1,12 @@
+p:not(.distinto) {
+    color:blueviolet;
+    font-style: italic;
+}
 
+
+/* Clase 3 - Fin */
+
+/* 
 section:is(.destacado) {
     color: red;
     font-weight: bold;
@@ -7,7 +15,7 @@ section:is(.destacado) {
 section:where(.destacado) {
     color: green;
     font-weight: bold;
-}
+} */
 
 /* Clase 2 - Fin */
 
