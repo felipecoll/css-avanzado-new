@@ -1,7 +1,28 @@
-div p:nth-child(2n of p) {
+.tarjeta {
+    border: 2px solid blue;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contenedor {
+    container-type: inline-size;
+    width: 100%;
+    border: 1 px solid red;
+    max-width: 900px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .tarjeta {
+        background-color: lightblue;
+    }
+}
+
+/* div p:nth-child(2n of p) {
     color:blue;
     font-weight: bold;
-}
+} */
 
 
 /* p:not(.distinto) {
