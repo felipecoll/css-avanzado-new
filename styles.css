@@ -1,7 +1,13 @@
-p:not(.distinto) {
+div p:nth-child(2n of p) {
+    color:blue;
+    font-weight: bold;
+}
+
+
+/* p:not(.distinto) {
     color:blueviolet;
     font-style: italic;
-}
+} */
 
 
 /* Clase 3 - Fin */
