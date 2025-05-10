@@ -1,0 +1,20 @@
+:root {
+    --color-principal: #4CAF50;
+    --color-secundario: #f44336;
+    --tamaño-grande: 2rem;
+    --tamaño-pequeño: 1rem;
+    --fuente-principal: 'Arial', sans-serif;
+    --fuente-secundaria: 'Courier New', monospace;
+}
+
+h1 {
+    color: var(--color-principal);
+    font-size: var(--tamaño-grande);
+    font-family: var(--fuente-principal);
+}
+
+p {
+    color: var(--color-secundario);
+    font-size: var(--tamaño-pequeño);
+    font-family: var(--fuente-secundaria);
+}
