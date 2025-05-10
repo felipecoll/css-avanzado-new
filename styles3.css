@@ -1,4 +1,14 @@
 .caja {
+    width: min(500px, 50%);
+    background-color: bisque;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+/* 
+.caja {
     width: clamp(200px, 50%, 500px);
     background-color: bisque;
     height: 500px;
@@ -37,4 +47,4 @@ p {
     color: var(--color-secundario);
     font-size: var(--tamaño-pequeño);
     font-family: var(--fuente-secundaria);
-}
+} */
