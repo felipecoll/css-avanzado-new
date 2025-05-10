@@ -1,11 +1,27 @@
-.caja {
+@property --color-fondo {
+    syntax: '<color>';
+    inherits: false;
+    initial-value: #fff;
+}
+
+body {
+    background-color: var(--color-fondo);
+    transition: --color-fondo 0.9s ease-in-out;
+}
+
+body:hover {
+    --color-fondo: #4CAF50;
+}
+
+
+/* .caja {
     width: min(500px, 50%);
     background-color: bisque;
     height: 500px;
     border: 1px solid black;
     border-radius: 5px;
     margin: auto;
-}
+} */
 
 /* 
 .caja {
