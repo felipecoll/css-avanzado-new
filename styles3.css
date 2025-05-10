@@ -1,3 +1,14 @@
+.container {
+    width: calc(100% - 320px);
+    padding: 30px;
+    background-color: #4CAF50;
+}
+
+.fuente {
+    font-size: calc(1rem + 1vw);
+}
+
+
 :root {
     --color-principal: #4CAF50;
     --color-secundario: #f44336;
