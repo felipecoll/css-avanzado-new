@@ -1,4 +1,4 @@
-.caja{
+/* .caja{
     background-color: darkblue;
     height: 200px;
     width: 200px;
@@ -8,7 +8,7 @@
 
 .caja:hover{
     background-color: color-mix(in srgb, darkblue 50%, red)
-}
+} */
 
 /* @property --color-fondo {
     syntax: '<color>';
