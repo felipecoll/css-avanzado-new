@@ -1,3 +1,33 @@
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.espaciador {
+    height: 100vph
+}
+
+.texto {
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0;
+
+    view-timeline: --aparecer-timeline;
+    view-timeline: block;
+
+    animation-timeline: aparecer-timeline;
+    animation-name: aparecer;
+    animation-range: entry 10% cover 30%;
+    animation-fill-mode:both;
+}
+
+
 /* .caja{
     background-color: darkblue;
     height: 200px;
